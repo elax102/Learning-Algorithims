@@ -4,7 +4,7 @@ function findMax(items) {
 
   console.log("Finding min and max values in " + items);
 
-  for(var i = 1; i != items.length; i++){
+  for(var i = 0; i != items.length; i++){
     console.log("Looking at " + items[i]);
       if (items[i] > maxValue) {
         maxValue = items[i];
@@ -14,7 +14,7 @@ function findMax(items) {
         console.log("Min is now " + minValue);
       }
   }
-  
+
   console.log("Min is " + minValue);
   console.log("Max is " + maxValue);
   return [minValue, maxValue];
